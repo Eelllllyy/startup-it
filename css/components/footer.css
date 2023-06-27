@@ -1,0 +1,25 @@
+.footer{
+  width: 100vw;
+  height: 80px;
+  background-color: rgba(48, 48, 48, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+}
+.footer-navbar{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-date{
+  color:white
+}
+@media(max-width:500px){
+  .footer-navbar{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
