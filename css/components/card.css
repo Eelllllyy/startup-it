@@ -17,7 +17,7 @@
   transition: all 0.5s linear;
 }
 .arrow{
-  -webkit-mask-image: url('assets/images/arrow.svg');
+  -webkit-mask-image: url('./assets/images/arrow.svg');
   width: 72px;
   height: 72px;
   background-color: #7b7b7b;
