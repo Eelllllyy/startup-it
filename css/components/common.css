@@ -52,7 +52,7 @@ a{
     margin-top: 100px;
   }
 }
-@media(max-width:550px){
+@media(max-width:561px){
   .main{
     height: calc(100vh - 128px);
     overflow-y: scroll;

@@ -19,7 +19,7 @@
 .footer-date{
   color:white
 }
-@media(max-width:550px){
+@media(max-width:561px){
   .footer{
     height: 94px;
   }
