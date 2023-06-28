@@ -7,9 +7,11 @@
   align-items: center;
   position: sticky;
   bottom: 0;
+  left: 0;
 }
 .footer-navbar{
-  width: 90vw;
+  width: 1200px;
+  padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,8 +20,12 @@
   color:white
 }
 @media(max-width:500px){
+  .footer{
+    height: 94px;
+  }
   .footer-navbar{
     flex-direction: column;
     gap: 10px;
+    font-size: 13px;
   }
 }
