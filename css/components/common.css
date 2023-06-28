@@ -49,10 +49,12 @@ a{
 @media(max-width:730px){
   .section-cards{
     flex-direction: column;
+    margin-top: 100px;
   }
 }
-@media(max-width:500px){
+@media(max-width:550px){
   .main{
     height: calc(100vh - 128px);
+    overflow-y: scroll;
   }
 }
